@@ -1,0 +1,55 @@
+** IS3.IN API V1 **
+
+Notes:
+
+>> It is a good practice to store the access tokens rather than requesting them
+   every time. 
+   Access tokens expire in 3600 seconds or 1 hour.
+   Function: `is3::setAccessToken()`
+
+>> All the scopes will function without an access token except the scope `user`.
+
+>> An access token is advised while shortening a long URL to log them under your
+   account.
+
+>> Functions|Scope which can take access tokens as a parameter: 
+	doShortUrl | shortUrl | optional: will log the URL under your account
+	user       | user	  | required
+
+>> Supported Browsers:
+			array(
+				'Internet Explorer',
+                'Firefox',
+                'Safari',
+                'Chrome',
+                'Opera',
+                'Netscape',
+                'Maxthon',
+                'Konqueror',
+                'Handheld Browser(Unknown Browser)'
+			);
+
+>> Supported Operating Systems:
+			array(
+			'Windows 8.1',
+			'Windows 8',
+            'Windows 7',
+            'Windows Vista',
+            'Windows Server 2003/XP x64',
+            'Windows XP',
+            'Windows 2000',
+            'Windows ME',
+            'Windows 98',
+            'Windows 95',
+            'Windows 3.11',
+            'Mac OS X',
+            'Mac OS 9',
+            'Linux',
+            'Ubuntu',
+            'iPhone',
+            'iPod',
+            'iPad',
+            'Android',
+            'BlackBerry',
+            'Mobile'
+		);
