@@ -35,12 +35,12 @@ class is3 {
 	/*
 	 * The API base URL
 	*/
-	const API_URL = 'https://is3.in/api/';
+	const API_URL = 'http://is3.in/api/';
 	
 	/*
 	 * The API Auth URL
 	*/ 
-	const AUTH_URL = 'https://is3.in/api/auth/';
+	const AUTH_URL = 'http://is3.in/api/auth/';
 	
 	/*
      * The user access token
